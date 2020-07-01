@@ -11,6 +11,7 @@ Gambar berikut menunjukkan kondisi 0, yakni saat aman, tidak ada air di sensor (
 ![Sketch](/images/schematics_aman.JPG)
 Gambar berikut menunjukkan kondisi 1, yakni saat terjadi kebocoran (ada air di sensor).
 ![Sketch](/images/schematics_bocor.JPG)
+Lampu yang digunakan dalam simulasi masih LED 1.2 V, bila ingin diganti sirine atau lampu peringatan, nantinya dapat ditambahkan komponen Relay.
 
 ### Koneksi ke server
 Pengiriman sinyal dapat berlangsung melalui pin Tx dan Rx (menggantikan sinyal ke Virtual Terminal pada gambar). Selain itu, dapat pula digunakan modul Ethenet beserta penambahan beberapa baris di file .ino (C/C++) untuk koneksi ke antena. Raspberry Pi dapat juga digunakan (selain opsi modul ethernet) namun harus terlebih dulu dikonfigurasi (Raspberry Pi menggunakan Phyton)
@@ -22,3 +23,4 @@ Pengiriman sinyal dapat berlangsung melalui pin Tx dan Rx (menggantikan sinyal k
 4. Raspberry Pi Rp603000 ---> bila tidak memakai modul ethernet poin 3 diatas [Digiwarestore](https://digiwarestore.com/id/raspberry-board/raspberry-pi-3-model-b-made-in-uk-442316.html)
 5. Kabel LAN STP (harga bervariasi, tergantung kualitas dan panjang kabel) [Bukalapak](https://www.bukalapak.com/products?search%5Bkeywords%5D=lan%20stp)
 6. Casing Arduino dan modul atau raspberry pi (bila memakai), bisa beli atau but sendiri, yang penting aman dari gangguan
+7. LED/Lampu indikator bisa disesuaikan
